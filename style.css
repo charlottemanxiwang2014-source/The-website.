@@ -48,6 +48,33 @@ h1 {
   border: 3px dashed #ffb6d9;
 }
 
+.books-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.books-content ul {
+  flex: 1 1 55%;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.books-content li {
+  margin-bottom: 8px;
+}
+
+.book-image {
+  flex: 0 0 220px;
+  max-width: 220px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 h2 {
   color: #ff6fb1;
   margin-top: 0;
