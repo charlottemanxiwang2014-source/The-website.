@@ -70,10 +70,12 @@ ul {
 
 .cat-side p {
   background-color: #ffffffaa;
-  padding: 12px;
+  padding: 14px 12px;
+  line-height: 1.4;
   border-radius: 20px;
   margin: 25px 10px;
   border: 2px solid #ffb6d9;
+  white-space: nowrap;
 }
 
 .left {
