@@ -85,6 +85,21 @@ ul {
   line-height: 1.8;
 }
 
+.about-image-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.about-image {
+  width: min(100%, 280px);
+  height: auto;
+  border-radius: 20px;
+  border: 3px solid #ffb6d9;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  transform: translateY(-1px);
+}
+
 /* Navigation links */
 .nav-links {
   display: flex;
