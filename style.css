@@ -94,7 +94,7 @@ ul {
 .about-image-wrapper {
   position: absolute;
   left: 50%;
-  top: -40px;
+  top: -56px;
   transform: translateX(-50%);
   width: 280px;
   height: auto;
@@ -108,9 +108,9 @@ ul {
 .about-image {
   width: 280px;
   height: auto;
-  border-radius: 25px;
-  border: 3px solid #ffb6d9;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  border-radius: 0;
+  border: none !important;
+  box-shadow: none !important;
   position: relative;
   z-index: 1;
   background: transparent !important;
