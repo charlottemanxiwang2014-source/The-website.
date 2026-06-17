@@ -61,16 +61,18 @@ ul {
 .cat-side {
   position: fixed;
   top: 40px;
-  width: 120px;
+  width: auto;
+  min-width: 120px;
   text-align: center;
   font-size: 24px;
   color: #ff6fb1;
   z-index: -1;
+  overflow: visible;
 }
 
 .cat-side p {
   background-color: #ffffffaa;
-  padding: 12px;
+  padding: 12px 16px;
   border-radius: 20px;
   margin: 25px 10px;
   border: 2px solid #ffb6d9;
