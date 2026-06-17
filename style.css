@@ -48,7 +48,7 @@ h1 {
   border: 3px dashed #ffb6d9;
 }
 
-..books-content {
+.books-content {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
