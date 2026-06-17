@@ -89,7 +89,8 @@ ul {
 .about-card {
   position: relative;
   padding-top: 0;
-  margin-top: 38px;
+  margin-top: 10px;
+  padding-bottom: 30px;
 }
 
 .about-image-wrapper {
