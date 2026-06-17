@@ -18,7 +18,7 @@ body {
   padding: 30px;
   border-radius: 25px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-  border: 4px solid #ffb6d9;
+  border: 4px solid #fab2d5;
 }
 
 /* Header */
@@ -30,13 +30,13 @@ header {
 h1 {
   font-family: "Times New Roman", Times, serif;
   font-size: 48px;
-  color: #ff6fb1;
+  color: #ff6cae;
   margin-bottom: 10px;
 }
 
 .subtitle {
   font-size: 20px;
-  color: #5c8dd6;
+  color: #3e3499;
 }
 
 /* Sections */
@@ -65,7 +65,7 @@ ul {
   min-width: 120px;
   text-align: center;
   font-size: 24px;
-  color: #ff6fb1;
+  color: #d2a3fe;
   z-index: -1;
   overflow: visible;
 }
