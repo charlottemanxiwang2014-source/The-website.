@@ -57,38 +57,6 @@ ul {
   line-height: 1.8;
 }
 
-/* Cute cat side decorations */
-.cat-side {
-  position: fixed;
-  top: 40px;
-  width: 120px;
-  text-align: center;
-  font-size: 24px;
-  color: #ff6fb1;
-  z-index: -1;
-}
-
-.cat-side p {
-  background-color: #ffffffaa;
-  padding: 18px 14px;
-  line-height: 1.8;
-  min-height: 70px;
-  display: inline-block;
-  border-radius: 20px;
-  margin: 25px 10px;
-  border: 2px solid #ffb6d9;
-  white-space: pre;
-  text-align: center;
-}
-
-.left {
-  left: 10px;
-}
-
-.right {
-  right: 10px;
-}
-
 /* Makes it work better on smaller screens */
 @media (max-width: 900px) {
   .cat-side {
