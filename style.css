@@ -101,8 +101,8 @@ ul {
 }
 
 .about-image-wrapper::before {
-  content: "";
-  display: none;
+  content: "" !important;
+  display: none !important;
 }
 
 .about-image {
@@ -113,6 +113,7 @@ ul {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
   position: relative;
   z-index: 1;
+  background: transparent !important;
 }
 
 /* Navigation links */
