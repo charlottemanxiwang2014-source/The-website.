@@ -88,7 +88,7 @@ ul {
 /* About Me image overlap */
 .about-card {
   position: relative;
-  padding-top: 140px;
+  padding-top: 80px;
 }
 
 .about-image-wrapper {
@@ -105,18 +105,6 @@ ul {
   display: none !important;
 }
 
-.about-card {
-  position: relative;
-  padding-top: 100px;
-}
-.about-image-wrapper {
-  position: absolute;
-  left: 50%;
-  top: -36px;
-  transform: translateX(-50%);
-  width: 280px;
-  height: auto;
-}
 .nav-links {
   display: flex;
   justify-content: space-between;
