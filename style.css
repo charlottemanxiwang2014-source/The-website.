@@ -86,9 +86,10 @@ ul {
 }
 
 .about-image-wrapper {
+  position: relative;
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .about-image {
@@ -97,7 +98,25 @@ ul {
   border-radius: 20px;
   border: 3px solid #ffb6d9;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-  transform: translateY(-1px);
+  position: relative;
+  z-index: 1;
+}
+
+.about-card {
+  padding-top: 60px;
+}
+
+.about-image-wrapper::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -22px;
+  width: 60%;
+  height: 3px;
+  background: #ffb6d9;
+  border-radius: 999px;
+  transform: translateX(-50%);
+  z-index: 0;
 }
 
 /* Navigation links */
