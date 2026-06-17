@@ -105,18 +105,18 @@ ul {
   display: none !important;
 }
 
-.about-image {
-  width: 80px;
-  height: auto;
-  border-radius: 0;
-  border: none !important;
-  box-shadow: none !important;
+.about-card {
   position: relative;
-  z-index: 1;
-  background: transparent !important;
+  padding-top: 100px;
 }
-
-/* Navigation links */
+.about-image-wrapper {
+  position: absolute;
+  left: 50%;
+  top: -36px;
+  transform: translateX(-50%);
+  width: 280px;
+  height: auto;
+}
 .nav-links {
   display: flex;
   justify-content: space-between;
