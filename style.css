@@ -94,7 +94,7 @@ ul {
 
 .about-image-wrapper {
   position: absolute;
-  left: 50%;
+  left: calc(50% + 400px);
   top: -62px;
   transform: translateX(-50%);
   width: 280px;
