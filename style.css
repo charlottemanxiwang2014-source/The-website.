@@ -85,38 +85,34 @@ ul {
   line-height: 1.8;
 }
 
-.about-image-wrapper {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
-}
-
-.about-image {
-  width: min(100%, 280px);
-  height: auto;
-  border-radius: 20px;
-  border: 3px solid #ffb6d9;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-  position: relative;
-  z-index: 1;
-}
-
+/* About Me image overlap */
 .about-card {
-  padding-top: 60px;
+  position: relative;
+  padding-top: 140px;
+}
+
+.about-image-wrapper {
+  position: absolute;
+  left: 50%;
+  top: -40px;
+  transform: translateX(-50%);
+  width: 280px;
+  height: auto;
 }
 
 .about-image-wrapper::before {
   content: "";
-  position: absolute;
-  left: 50%;
-  top: -22px;
-  width: 60%;
-  height: 3px;
-  background: #ffb6d9;
-  border-radius: 999px;
-  transform: translateX(-50%);
-  z-index: 0;
+  display: none;
+}
+
+.about-image {
+  width: 280px;
+  height: auto;
+  border-radius: 25px;
+  border: 3px solid #ffb6d9;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  position: relative;
+  z-index: 1;
 }
 
 /* Navigation links */
